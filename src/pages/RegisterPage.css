@@ -1,0 +1,77 @@
+.page {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #fff; /* Texto branco */
+  background-color: #1C1C1C; /* Fundo escuro */
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #BA4DE3; /* Roxo claro */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-label {
+  font-size: 16px;
+  color: #E0E0E0; /* Cor de texto suave */
+}
+
+.form-input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #444; /* Borda suave */
+  border-radius: 6px;
+  background-color: #333; /* Fundo de input escuro */
+  color: #fff; /* Texto branco no input */
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+}
+
+.form-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #BA4DE3; /* Roxo claro */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%; /* Garantir que os botões ocupem toda a largura */
+}
+
+.form-button.selected {
+  background-color: #530082; /* Roxo mais escuro */
+}
+
+.form-button:hover {
+  background-color: #8A05BE; /* Roxo médio */
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .form-label {
+    font-size: 14px;
+  }
+
+  .form-input {
+    font-size: 14px;
+  }
+
+  .form-button {
+    font-size: 14px;
+  }
+}
