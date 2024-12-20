@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/workmark/static/css/main.d2a3b73f.css",
+    "main.js": "/workmark/static/js/main.539d4a5e.js",
+    "index.html": "/workmark/index.html",
+    "main.d2a3b73f.css.map": "/workmark/static/css/main.d2a3b73f.css.map",
+    "main.539d4a5e.js.map": "/workmark/static/js/main.539d4a5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2a3b73f.css",
+    "static/js/main.539d4a5e.js"
+  ]
+}
