@@ -8,11 +8,11 @@ function RegisterPage({ onAddRecord }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    alert("Trabalho registrado com sucesso!");
     if (date) {
       onAddRecord(date, type);
       setDate(today);
       setType("full");
-      alert("Trabalho registrado com sucesso!")
     }
   };
 
