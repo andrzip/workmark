@@ -12,6 +12,7 @@ function RegisterPage({ onAddRecord }) {
       onAddRecord(date, type);
       setDate(today);
       setType("full");
+      alert("Trabalho registrado com sucesso!")
     }
   };
 
